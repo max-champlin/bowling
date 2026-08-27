@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": ["S S", "SSS"],
+  "key": { "S": { "item": "minecraft:smooth_stone" } },
+  "result": { "id": "bowling:gutter", "count": 6 }
+}

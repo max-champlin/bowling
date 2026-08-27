@@ -1,0 +1,20 @@
+{
+  "itemGroup.bowling": "Bowling",
+
+  "block.bowling.lane": "Bowling Lane",
+  "item.bowling.lane.tip": "The foul line. Place ONE, facing down the lane.\nRight-click it holding Lane Boards to build the lane.\nEmpty hand: join or rack. Sneak-click: reset.",
+
+  "block.bowling.lane_board": "Lane Board",
+  "item.bowling.lane_board.tip": "The lane surface.\nHold a stack and right-click a Bowling Lane to lay the whole lane.\nAbout 110 needed for a full lane.",
+
+  "block.bowling.gutter": "Gutter",
+  "item.bowling.ball": "Bowling Ball",
+  "entity.bowling.pin": "Bowling Pin",
+  "entity.bowling.ball": "Bowling Ball",
+
+  "key.categories.bowling": "Bowling",
+  "key.bowling.spin_more": "Spin right",
+  "key.bowling.spin_less": "Spin left",
+  "key.bowling.spin_right": "Spin right (alt)",
+  "key.bowling.spin_left": "Spin left (alt)"
+}

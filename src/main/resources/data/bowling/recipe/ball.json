@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " O ",
+    "OCO",
+    " O "
+  ],
+  "key": {
+    "O": { "item": "minecraft:obsidian" },
+    "C": { "item": "minecraft:clay_ball" }
+  },
+  "result": { "id": "bowling:ball", "count": 1 }
+}

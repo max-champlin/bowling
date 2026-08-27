@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+    id 'net.neoforged.moddev' version '0.1.110'
+}
+
+version = '0.1.0'
+group = 'bowl'
+base { archivesName = 'bowling' }
+
+java { toolchain { languageVersion = JavaLanguageVersion.of(21) } }
+
+neoForge {
+    // Matches the runtime. No other mod is referenced - this is a standalone
+    // game, not an integration, so there is nothing to compile against.
+    version = '21.1.234'
+}

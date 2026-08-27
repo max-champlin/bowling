@@ -1,0 +1,22 @@
+{
+  "parent": "block/block",
+  "textures": {
+    "all": "bowling:block/lane",
+    "top": "bowling:block/lane_top",
+    "particle": "bowling:block/lane"
+  },
+  "elements": [
+    {
+      "from": [0, 0, 0],
+      "to": [16, 4, 16],
+      "faces": {
+        "down":  { "uv": [0, 0, 16, 16], "texture": "#all", "cullface": "down" },
+        "up":    { "uv": [0, 0, 16, 16], "texture": "#top" },
+        "north": { "uv": [0, 0, 16, 4],  "texture": "#all" },
+        "south": { "uv": [0, 0, 16, 4],  "texture": "#all" },
+        "west":  { "uv": [0, 0, 16, 4],  "texture": "#all" },
+        "east":  { "uv": [0, 0, 16, 4],  "texture": "#all" }
+      }
+    }
+  ]
+}

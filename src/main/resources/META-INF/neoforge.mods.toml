@@ -1,0 +1,32 @@
+modLoader = "javafml"
+loaderVersion = "[1,)"
+license = "MIT"
+
+[[mods]]
+modId = "bowling"
+version = "0.1.0"
+displayName = "Bowling"
+authors = "max-champlin"
+issueTrackerURL = "https://github.com/max-champlin/bowling/issues"
+displayURL = "https://github.com/max-champlin/bowling"
+description = '''
+Ten-pin bowling. Ice lane, slime bumpers, real scoring.
+
+Aim by walking, hold space for power, up and down arrows for spin. The lane
+keeps the frame state and the scoreboard, so a game survives logging out and
+several players can share one lane.
+'''
+
+[[dependencies.bowling]]
+    modId = "neoforge"
+    type = "required"
+    versionRange = "[21.1,)"
+    ordering = "NONE"
+    side = "BOTH"
+
+[[dependencies.bowling]]
+    modId = "minecraft"
+    type = "required"
+    versionRange = "[1.21.1,1.22)"
+    ordering = "NONE"
+    side = "BOTH"

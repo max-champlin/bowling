@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "bowling:block/lane" },
+    "facing=east":  { "model": "bowling:block/lane", "y":  90 },
+    "facing=south": { "model": "bowling:block/lane", "y": 180 },
+    "facing=west":  { "model": "bowling:block/lane", "y": 270 }
+  }
+}
