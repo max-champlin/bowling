@@ -2,3 +2,7 @@ build/
 .gradle/
 run/
 *.log
+
+# Working notes - not part of the mod
+MODERATION_REPLY.md
+MODRINTH_PAGE.md
